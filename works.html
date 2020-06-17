@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grace Workspace</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="./images/favicon2.ico" type="image/x-icon">
+     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" type='text/css'>
+</head>
+<body>
+	<header> 
+		<!--barra intera-->
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="index.html"> <h1> GRACE WORKSPACE </h1></a>
+				</div>
+
+			<button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+				</div>
+
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li class="visible-xs">
+						<a href="index.html"><span> home </span></a>
+					</li>
+					<li>
+						<a href="about.html"><span> about</span><br class="hidden-xs"></a>
+					</li>
+					<li class="active">
+						<a href="works.html"><span> works </span><br class="hidden-xs"></a>
+					</li>
+					<li>
+						<a href="index.html"><span> others </span><br class="hidden-xs"></a>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+	</header>
+
+	
+		<section class="row" >
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 colonna" id="firstColumn">
+				<div class="works" id="colonna1">
+				<ul> 
+					<h4> SELECTED PROJECTS</h4>
+					<div class="listaprog">
+						<a href="#" onclick="show1()" id="firstprog" class="link"> &#8594 Serie 4312 </a>
+					</div>
+				
+					<div class="listaprog">
+						<a href="#" onclick="show2()" id="secondprog" class="link"> &#8594 V-typo. Animate meanings. Inserti testuali cinematografici intelligenti. Da Saul Bass ai caratteri variabili. Ambiti di applicazione e progetti.</a>
+					</div>
+				
+					<div class="listaprog">
+						<a href="#" onclick="show3()" id="thirdprog" class="link"> &#8594 Incongruity </a>
+					</div>
+					<div class="listaprog">
+						<a href="#" onclick="show4()" id="fourthprog" class="link"> &#8594 Meat the plastic pig </a>
+					</div>
+					<div class="listaprog">
+						<a href="#" onclick="show5()" id="fifthprog" class="link">&#8594 Gaia Charta. La storia e le lotte del FUORI!  </a>
+					</div>
+					<div class="listaprog">
+						<a href="#" onclick="show6()" id="sixthprog" class="link"> &#8594 Amaro font </a>
+					</div>
+					<div class="listaprog">
+						<a href="#" onclick="show7()" id="seventhprog" class="link">&#8594 Sonar. Advanced Music Festival </a>
+					</div>
+
+					<div class="listaprog">
+						<a href="#" onclick="show8()" id="seventhprog" class="link">&#8594 Memento. An abstract interpretation. </a>
+					</div>
+				</ul>
+			</div>
+		</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 colonna box secondColumn" style="padding-right: 0px;" id="secondaColonna">
+		<div id="prog" class="Prog" style="padding-right: 30px;">
+			
+			<img class="imgresize" onclick="show1()" src="./images/serie4312.jpg">
+			<p>Serie 4312 </p> <br>
+			<img class="imgresize" onclick="show2()" src="./images/copertina.jpg">
+	
+
+			<p>V-typo. Animate meanings </p> <br>
+			<img class="imgresize" onclick="show3()" src="./images/moodboard1.jpg">
+			
+
+			<p>Incongruity </p><br>
+			<img class="imgresize" onclick="show4()" src="./images/plasticpig1.jpg">
+			
+
+			<p>Meat the plastic pig </p><br>
+			<img class="imgresize" onclick="show5()" src="./images/copertina.jpg">
+			
+
+			<p>Gaia Charta</p><br>
+			<img class="imgresize" onclick="show6()" src="./images/sonar.jpg">
+			
+
+			<p>Sonar. Advanced Music Festival</p>
+
+			<img class="imgresize" onclick="show7()" src="./images/amaro.jpg">
+			
+
+			<p>Amaro font</p>
+
+			<img class="imgresize" onclick="show8()" src="./images/amaro.jpg">
+			
+
+			<p>Memento. An abstract interpretation</p>
+
+	</div>
+</div>
+</section>
+
+
+
+
+
+
+
+<div class="cursor"></div>
+	
+	<script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/workscript.js"></script>
+
+</body>
+</html>
