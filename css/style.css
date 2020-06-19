@@ -4,6 +4,7 @@ body {
   background-color: #dbdbdb;
   font-family: 'Work Sans', sans-serif;
   overflow-x: hidden;
+  height: 100%;
 }
 
 /********** cursore **********/
@@ -134,6 +135,8 @@ button.navbar-toggle{
 
 #main-content .jumbotron{
 	background-color: #dbdbdb;
+  margin-bottom: 0px;
+  padding-bottom: 4px;
 }
 
 .jumbotron > span {
@@ -141,6 +144,7 @@ button.navbar-toggle{
 	background-color: #00ffce;
 	font-variation-settings:"wght" 400;
 	font-size: 30px;
+
 }
 
 .jumbotron > span:hover {
@@ -154,6 +158,11 @@ button.navbar-toggle{
 	color: #444444;
 	
 	font-size: 27px;
+}
+
+.text-left{
+  padding-left: 60px;
+  font-size: 13px;
 }
 
 #prova {
@@ -193,16 +202,33 @@ padding-top: 100px;
 	margin-left: auto;
 }
 
-.panel-footer{
+/*.panel-footer{
+  padding: 0 15px;
 	background-color: #dbdbdb;
-	margin-bottom: 0;
-	margin-top: 150px;
-	
+	/*margin-bottom: 0px;
+	/*margin-top: 150px;
+  position: absolute;
+  border-bottom: 0;
+  left: 0;
+  width: 100%;
+} */
+
+#footer{
+  position: absolute;
+  bottom: 0px;
+  /*margin: 0 auto;
+  background-color: #dbdbdb;
+  border: 0;*/
+  height: 20px;
 }
 
+.text-left{
+  padding-left: 10px;
+}
+
+
 .text-center > a{
-	text-align: center;
-	
+
 	color: #2b2b2b;
 }
 
@@ -212,7 +238,6 @@ padding-top: 100px;
 
 .active{
 	text-decoration: underline;
-
 }
 
 /********** Works **********/
@@ -271,7 +296,7 @@ padding-right: 10px;
 }
 
     .Prog{
-    margin-top: 30px;
+    margin-top: 140px;
     margin-right: 30px;
     padding-right: 30px;
     position: absolute;
@@ -296,8 +321,14 @@ padding-right: 10px;
 }
 
 ul{
+  margin-top: 90px;
   list-style-type: none;
   padding-left: 30px;
+
+}
+
+.works ul{
+  position: fixed;
 }
 .listaprog>a {
   color:#2b2b2b;
@@ -369,7 +400,9 @@ p.testoprog2{
 }
 
 
-
+.underline{
+  background-color: #00ffce;
+}
 
 
 /********** Extra small devices only **********/
@@ -381,7 +414,7 @@ p.testoprog2{
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 15px;
-    font-size: 4vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
   }
   
 
@@ -399,8 +432,9 @@ p.testoprog2{
 	font-size: 25px;
 }
 
+
    #prova{
-	margin-right: 20px;
+	margin-right: 0px;
 	margin-left: 20px;
 }
 
@@ -417,6 +451,16 @@ padding-top: 20px;
 #firstColumn{
   display: none;
 }
+
+.text-left{
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+.text-center{
+  border-bottom: 0;
+ margin-top: 50px;
+} 
 
 
 
