@@ -80,7 +80,7 @@ function show2(){
 	+
 	"<p class="+"sottotitoloprog"+"> MA thesis project <p>"
 	+
-	"<p class="+"testoprog"+"> Lorem Ipsum è un testo <p>" +"<p class="+"underline"+"> segnaposto <p>" + "<p class="+"testoprog"+">utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum. <p>"
+	"<span class="+"testoprog"+"> Lorem Ipsum è un testo <span>"+"<span class="+"underline"+"> segnaposto</span>" + "<span class="+"testoprog"+"> utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare, negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.<p>"
 	
 	document.getElementById('prog').innerHTML=content;
 }
@@ -124,7 +124,7 @@ function show4(){
 	+
 	"<p class="+"testoprog"+"> The project was made using html, css and making it possible to interact with Javascript. Operation is dictated by the mouse over.<p>"
 	+
-	"<a href= "+"https://vimeo.com/425520740"+">" + "<video class="+"videoprog"+" src="+"./images/Meat_the_plastic_pig"+">"+"</a>"
+	"<a href= "+"https://vimeo.com/425520740"+">" + "<video class="+"videoprog"+" src="+"./images/Meat_the_plastic_pig_breve.mp4"+">"+"</a>"
 	+
 	"<a href= "+"./images/plasticpig1.jpg"+">" + "<img class="+"imgprog"+" src="+"./images/plasticpig1.jpg"+">"+"</a>"
 	+
